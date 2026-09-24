@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services & Tarifs — F Tech Design</title>
+<meta name="description" content="Découvrez tous nos services : installation Windows, création graphique, activation Office/Windows et utilitaires, avec les tarifs détaillés.">
+
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0b0f1a">
+<link rel="icon" href="/icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="/icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="F Tech Design">
+
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="inner">
+    <a href="/index.html" class="brand">
+      <div class="logo"><img src="/images/logo.png" alt="F Tech Design"></div>
+      <div class="name">F TECH DESIGN<small>Qualité avant tout</small></div>
+    </a>
+    <nav class="links">
+      <a href="/index.html">Accueil</a>
+      <a href="/services.html">Services</a>
+      <a href="/about.html">À propos</a>
+      <a href="/contact.html">Contact</a>
+      <a href="/contact.html" class="btn-nav">Commander</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/index.html">Accueil</a>
+    <a href="/services.html">Services</a>
+    <a href="/about.html">À propos</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/contact.html" class="btn-nav">Commander</a>
+  </div>
+</header>
+
+<main>
+
+  <div class="page-head">
+    <div class="inner">
+      <span class="tag">Catalogue</span>
+      <h1>Nos services & tarifs</h1>
+      <p>Choisissez une catégorie ci-dessous pour voir le détail des prestations et les prix.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="tabs" id="tabs">
+      <button class="tab-btn active" data-tab="installation">💽 Installation</button>
+      <button class="tab-btn" data-tab="creation">🎨 Création</button>
+      <button class="tab-btn" data-tab="activation">🔑 Activation</button>
+      <button class="tab-btn" data-tab="utilitaire">🧩 Utilitaire</button>
+    </div>
+
+    <div class="tab-panel active" id="panel-installation">
+      <div class="service-card">
+        <div class="service-icon">💽</div>
+        <div class="info">
+          <h4>Windows 8 / 10</h4>
+          <p>Installation complète du système, drivers de base inclus</p>
+        </div>
+        <div class="price">8000 FCFA</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🪟</div>
+        <div class="info">
+          <h4>Windows 11 v23H2</h4>
+          <p>Installation complète du système, dernière version stable</p>
+        </div>
+        <div class="price">10000 FCFA</div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="panel-creation">
+      <div class="service-card">
+        <div class="service-icon">🎨</div>
+        <div class="info">
+          <h4>Logo</h4>
+          <p>Création de logo sur mesure pour votre marque</p>
+        </div>
+        <div class="price">5000 FCFA</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🖼️</div>
+        <div class="info">
+          <h4>Affiche</h4>
+          <p>Création d'affiche personnalisée, prête à imprimer ou publier</p>
+        </div>
+        <div class="price">8000 FCFA</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📸</div>
+        <div class="info">
+          <h4>Retouche de photo</h4>
+          <p>Amélioration, correction et retouche professionnelle</p>
+        </div>
+        <div class="price">4000 FCFA</div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="panel-activation">
+      <div class="service-card">
+        <div class="service-icon">📄</div>
+        <div class="info">
+          <h4>Office</h4>
+          <p>Activation de la suite Office (Word, Excel, PowerPoint...)</p>
+        </div>
+        <div class="price">5000 FCFA</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔑</div>
+        <div class="info">
+          <h4>Windows</h4>
+          <p>Activation officielle du système Windows</p>
+        </div>
+        <div class="price">5000 FCFA</div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="panel-utilitaire">
+      <div class="service-card">
+        <div class="service-icon">🎬</div>
+        <div class="info">
+          <h4>VLC</h4>
+          <p>Installation du lecteur multimédia</p>
+        </div>
+        <div class="price">3000 FCFA</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🌐</div>
+        <div class="info">
+          <h4>Chrome</h4>
+          <p>Installation du navigateur Google Chrome</p>
+        </div>
+        <div class="price">3000 FCFA</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🔍</div>
+        <div class="info">
+          <h4>Google</h4>
+          <p>Installation / configuration des services Google</p>
+        </div>
+        <div class="price">3000 FCFA</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="cta-banner">
+        <div>
+          <h3>Vous ne trouvez pas ce qu'il vous faut ?</h3>
+          <p>Décrivez votre besoin, nous vous répondons rapidement sur WhatsApp.</p>
+        </div>
+        <a href="/contact.html" class="btn btn-primary">Demander un devis</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <div class="logo"><img src="/images/logo.png" alt="F Tech Design"></div>
+        <span>F TECH DESIGN</span>
+      </div>
+      <p class="desc">Installation, activation et création : votre service informatique de confiance, qualité avant tout.</p>
+    </div>
+    <div>
+      <h4>Liens rapides</h4>
+      <ul>
+        <li><a href="/index.html">Accueil</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/about.html">À propos</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="https://wa.me/22951224992">WhatsApp : +229 51 22 49 92</a></li>
+        <li><a href="mailto:contact@ftechdesign.com">contact@ftechdesign.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom wrap">
+    <span>© <span id="year"></span> F Tech Design. Tous droits réservés.</span>
+    <span>Qualité avant tout</span>
+  </div>
+</footer>
+
+<div id="installBanner">
+  <div class="txt">
+    <h4>Installer F Tech Design</h4>
+    <p>Ajoutez l'application à votre écran d'accueil pour un accès rapide.</p>
+  </div>
+  <button class="install-btn" id="installBtn">Installer</button>
+  <button class="dismiss-btn" id="dismissInstall">✕</button>
+</div>
+
+<script src="/js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
